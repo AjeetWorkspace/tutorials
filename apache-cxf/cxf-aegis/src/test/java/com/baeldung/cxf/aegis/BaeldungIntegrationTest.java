@@ -31,6 +31,7 @@ public class BaeldungIntegrationTest {
     private String fileName = "baeldung.xml";
 
     @Test
+	
     public void whenMarshalingAndUnmarshalingCourseRepo_thenCorrect() throws Exception {
         initializeContext();
         CourseRepo inputRepo = initCourseRepo();
